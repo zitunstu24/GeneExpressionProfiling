@@ -25,10 +25,10 @@ cand_exp_t = t(cand_exp)
 colnames(cand_exp_t) = candidates_id$id
 co_cand = cor(cand_exp_t)
 
-df = read.csv("inputs/new_profile.csv", na.strings=c("","NA"))
+df = read.csv("inputs/new_profile.csv", na.strings=c("","NA"), sep = ";")
 summary(df)
 colnames(df)
-df = df[-c(2,18:22), -c(1,3,71)]
+df = df[-c(2,18:21), -c(1,3,71)]
 row.names(df) = df$pid
 df = df[, -1]
 dim(df)
