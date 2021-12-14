@@ -43,7 +43,7 @@ candidate_exp = combined.logFC[candidates,]
 row.names(candidate_exp) = candidate$gene_id
 colnames(candidate_exp)
 names(candidate_exp) <- gsub(x = names(candidate_exp), pattern = "\\.", replacement = "-") 
-gene_id = read.xlsx("inputs/candidate_new.xlsx")
+gene_id = read.csv("inputs/candidate_new.csv")
 row.names(candidate_exp) = gene_id$id
 
 col = "e1-1"

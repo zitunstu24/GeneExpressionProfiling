@@ -16,7 +16,7 @@ combined.logFC = read.csv("inputs/combined.logFC.csv")
 row.names(combined.logFC) = combined.logFC$X
 combined.logFC = combined.logFC[, -1]
 
-candidates_id = read.xlsx("inputs/candidate_new.xlsx")
+candidates_id = read.csv("inputs/candidate_new.csv")
 
 
 candidates = candidates_id$gene_id
@@ -25,7 +25,7 @@ cand_exp_t = t(cand_exp)
 colnames(cand_exp_t) = candidates_id$id
 co_cand = cor(cand_exp_t)
 
-df = read.csv("inputs/new_profile.csv", na.strings=c("","NA"), sep = ";")
+df = read.csv("inputs/new_profile.csv", na.strings=c("","NA"))
 summary(df)
 colnames(df)
 df = df[-c(2,18:21), -c(1,3,71)]
