@@ -58,7 +58,6 @@ pdf("outputs/tissue_heat_response_heatmap.pdf",
 Heatmap(
   moneymaker_mat, name = "logFC",
   show_row_names = FALSE,
-  column_names_gp = gpar(fontsize = 9),
-  column_names_rot = 0
+  column_names_gp = gpar(fontsize = 9)
 )
 dev.off()

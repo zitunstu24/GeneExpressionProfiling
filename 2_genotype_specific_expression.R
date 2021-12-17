@@ -59,8 +59,7 @@ pdf("outputs/genotypes_response_in_pollen_heatmap.pdf",
 Heatmap(
   pollen_mat, name = "logFC",
   show_row_names = FALSE,
-  column_names_gp = gpar(fontsize = 9),
-  column_names_rot = 0
+  column_names_gp = gpar(fontsize = 9)
 )
 dev.off()
 
@@ -104,8 +103,7 @@ pdf("outputs/genotypes_response_in_leaf_heatmap.pdf",
 Heatmap(
   leaf_mat, name = "logFC",
   show_row_names = FALSE,
-  column_names_gp = gpar(fontsize = 9),
-  column_names_rot = 0
+  column_names_gp = gpar(fontsize = 9)
 )
 dev.off()
 
