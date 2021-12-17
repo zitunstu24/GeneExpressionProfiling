@@ -19,7 +19,7 @@ Following the 4 steps
 
 We are ready to go
 
-Then run scripts in commandline with Rscript (e.g Rscript 1_DEGs.R) 
+Then run scripts in terminal with Rscript (e.g Rscript 1_DEGs.R) 
 
 # Features
 
