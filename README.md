@@ -5,7 +5,19 @@
 3. tissue specific heat responsive genes patterns 
 4. Candidate gene selection
 5. Co-expression of candidate genes for their co regulation and Conserved candidate genes selection by phylogenetic profiling
+6. Gene ontology enrichment analysis of candidate genes
 
+
+# Quick start 
+
+$ git clone https://github.com/zitunstu24/GeneExpressionProfiling
+$ cd inputs
+$ gunzip combined_abundance.tsv.gz
+$ cd ../
+
+We are ready to go
+
+Then run scripts in commandline with Rscript (e.g Rscript 1_DEGs.R) 
 
 # Features
 
