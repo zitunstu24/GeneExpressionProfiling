@@ -10,10 +10,12 @@
 
 # Quick start 
 
-$ git clone https://github.com/zitunstu24/GeneExpressionProfiling
-$ cd inputs
-$ gunzip combined_abundance.tsv.gz
-$ cd ../
+Following the 4 steps
+
+1. $ git clone https://github.com/zitunstu24/GeneExpressionProfiling
+2. $ cd inputs
+3. $ gunzip combined_abundance.tsv.gz
+4. $ cd ../
 
 We are ready to go
 
