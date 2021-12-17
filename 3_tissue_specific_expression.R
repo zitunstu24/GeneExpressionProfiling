@@ -52,7 +52,7 @@ dev.off()
 
 moneymaker_mat = as.matrix(moneymaker)
 
-pdf("outputs/tissue_heat_response.pdf",
+pdf("outputs/tissue_heat_response_heatmap.pdf",
     width = 6.13,
     height = 5.60)
 Heatmap(
@@ -62,4 +62,3 @@ Heatmap(
   column_names_rot = 0
 )
 dev.off()
-
