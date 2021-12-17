@@ -15,4 +15,4 @@ BiocManager::install(c("edgeR", "ComplexHeatmap", "topGO"))
 
 bioc_pckg = c("edgeR", "ComplexHeatmap", "topGO") 
 
-lapply(pckg, require, character.only = TRUE)
+lapply(bioc_pckg, require, character.only = TRUE)
