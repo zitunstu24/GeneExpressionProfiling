@@ -10,12 +10,14 @@
 
 # Quick start 
 
-Following the 4 steps
+Following the steps
 
 1. $ git clone https://github.com/zitunstu24/GeneExpressionProfiling
-2. $ cd inputs
-3. $ gunzip combined_abundance.tsv.gz
-4. $ cd ../
+2. $ cd GeneExpressionProfiling
+3. $ Rscript packages.R
+4. $ cd inputs
+5. $ gunzip combined_abundance.tsv.gz
+6. $ cd ../
 
 We are ready to go
 
