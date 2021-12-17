@@ -1,11 +1,10 @@
 # GeneExpressionProfiling
 
 1. Landscape of gene expression of Tomato. 
-2. Genotype and tissue specific heat responsive genes patterns 
-3. Candidate gene selection
-4. Co-expression of candidate genes for their co regulation
-5. Conserved candidate genes selection by phylogenetic profiling
-6. Functional characterization of candidate genes
+2. Genotype specific heat responsive genes patterns 
+3. tissue specific heat responsive genes patterns 
+4. Candidate gene selection
+5. Co-expression of candidate genes for their co regulation and Conserved candidate genes selection by phylogenetic profiling
 
 
 # Features
