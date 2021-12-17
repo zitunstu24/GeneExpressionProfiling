@@ -12,6 +12,8 @@
 
 Following the steps
 
+For mac users, it is recommended to install xquartz (https://github.com/XQuartz/XQuartz/releases/download/XQuartz-2.8.1/XQuartz-2.8.1.dmg) for handling libraries and applications.  
+
 1. $ git clone https://github.com/zitunstu24/GeneExpressionProfiling
 2. $ cd GeneExpressionProfiling
 3. $ Rscript packages.R
