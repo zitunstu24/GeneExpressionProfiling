@@ -6,7 +6,7 @@
 
 # required packages
 
-load.lib<-c("dplyr", "openxlsx", "ggplot2", "BiocManager", "UpSetR", "openxlsx")
+load.lib<-c("dplyr", "openxlsx", "ggplot2", "BiocManager", "UpSetR", "openxlsx", "Cairo")
 
 install.lib<-load.lib[!load.lib %in% installed.packages()]
 for(lib in install.lib) install.packages(lib,dependencies=TRUE)
@@ -17,7 +17,6 @@ BiocManager::install(c("edgeR", "ComplexHeatmap", "topGO"))
 bioc_pckg = c("edgeR", "ComplexHeatmap", "topGO") 
 
 lapply(bioc_pckg, require, character.only = TRUE)
-
 
 rm(list=ls())
 set.seed(123)
